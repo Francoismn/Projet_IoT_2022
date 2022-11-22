@@ -1,0 +1,80 @@
+
+/*A REVOIR */
+
+@media screen and (max-width: 410px){
+    .logo{
+        margin-top: 10px;
+    }
+    .login-box{
+        top: 60%;
+    }
+    .login-title h1{
+    font-size: 2rem;
+    }
+    .login-title p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 515px){
+    .logo{
+        margin-top: 10px;
+    }
+    .login-box{
+        top: 50%;
+    }
+    .login-title h1{
+        font-size: 2.5rem;
+    }
+    .login-title p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 515px){
+    .logo{
+        margin-top: 10px;
+    }
+    .logo img{
+        width: 135.8px;
+        height: 135.8px;
+    }
+    .login-box{
+        top: 50%;
+    }
+    .login-title h1{
+    font-size: 2.5rem;
+    }
+    .login-title p{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 720px){
+    .logo{
+        margin-top: 10px;
+    }
+
+    .login-box{
+        top: 55%;
+    }
+
+}
+
+@media screen and (min-width: 1080px){
+    .logo{
+        margin-top: 10px;
+    }
+    .login-box{
+        top: 60%;
+    }
+    .login-title h1{
+        font-size: 4.5rem;
+    }
+    .login-title p{
+        font-size: 3rem;
+        margin: 20px 0 60px 0;
+    }
+
+}
+

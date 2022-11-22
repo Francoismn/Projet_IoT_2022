@@ -1,0 +1,175 @@
+@media screen and (min-width: 550px){
+    .header-center h1{
+        font-size: 35px;
+    }
+    .message{
+        margin-top: 70px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .message p{
+        font-size: 25px;
+    }
+    .header-right img{
+        width: 75px;
+        height: 60px;
+    }
+    .map img{
+        margin-bottom: 50px;
+        width: 75%;
+    }
+    .fc-left img{
+        height: 60px;
+    }
+    .fc-right img{
+        width: 55px;
+    }
+}
+
+@media screen and (min-width: 720px){
+    header{
+        height: 85px;
+    }
+    .header-center h1{
+        font-size: 30px;
+    }
+    .message{
+        margin-top: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .map{
+        margin: 20px 0 20px 0;
+    }
+    .map img{
+        width: 40%;
+        margin: 0;
+    }
+    .fc-left img{
+        height: 45px;
+    }
+    .fc-right img{
+        width: 35px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .header-center h1{
+        font-size: 35px;
+    }
+    .message{
+        margin-top: 45px;
+    }
+    .map{
+        margin: 20px 0 35px 0;
+    }
+    .map img{
+        width: 55%;
+        margin: 0;
+    }
+    .fc-left img{
+        height: 60px;
+    }
+    .fc-right img{
+        width: 55px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    header{
+        height: 90px;
+    }
+    .header-center h1{
+        font-size: 35px;
+    }
+    .message{
+        margin-top: 30px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .map{
+        margin: 20px 0 30px 0;
+    }
+    .map img{
+        width: 40%;
+        margin: 0;
+    }
+    .fc-left img{
+        height: 60px;
+    }
+    .fc-right img{
+        width: 55px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    header{
+        height: 110px;
+    }
+    .header-center h1{
+        font-size: 45px;
+    }
+    .message{
+        margin-top: 35px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .message p{
+        font-size: 35px;
+    }
+    .map{
+        margin: 30px 0 40px 0;
+    }
+    .map img{
+        width: 45%;
+        margin: 0;
+    }
+    footer{
+        height: 90px;
+    }
+    .fc-left img{
+        height: 75px;
+    }
+    .footer-center .fc-right img{
+        height: 65px;
+    }
+}
+    
+@media screen and (min-width: 2560px){
+    header{
+        height: 120px;
+    }
+    .header-center h1{
+        font-size: 55px;
+    }
+    .message{
+        margin-top: 50px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    .message p{
+        font-size: 40px;
+    }
+    .map{
+        margin: 60px 0 70px 0;
+    }
+    .map img{
+        width: 45%;
+        margin: 0;
+    }
+    footer{
+        height: 120px;
+    }
+    .fc-left img{
+        height: 75px;
+    }
+    .footer-center .fc-right img{
+        height: 65px;
+    }
+}
