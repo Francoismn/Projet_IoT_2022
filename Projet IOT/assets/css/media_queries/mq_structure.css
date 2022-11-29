@@ -1,0 +1,36 @@
+@media screen and (min-width:550px) {
+    .header-center img{
+        display: none;
+    }
+    .header-center h1{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1280px){
+    .nav-left{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1920px){
+    .header-center img{
+        display: block;
+    }
+    .nav-left{
+        display: block;
+    }
+    .btn{
+        margin-top: 35px;
+    }
+    .info-date{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #dateHeure{
+        font-size: 15px;
+        justify-content: end;
+        margin: 30px 20px 0 0;
+    }
+}

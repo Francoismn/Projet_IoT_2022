@@ -1,0 +1,49 @@
+body{
+  margin: 300px;
+  position: relative;
+}
+
+
+
+.circle {
+  display: absolute;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #acacac;
+  top: 500px;
+  left: 300px;
+
+}
+
+.back-circle{
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  border-radius: 90px;
+  background-color: #dfdfdf;
+  top: 15px;
+  left: 15px;
+  
+  
+}
+
+.cursor{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #acacac;
+  top: -25px;
+  left: 65px;
+  border: 1px solid #8d8d8d;
+  
+}
+
+.temperature{
+  position: absolute;
+  font-size: 50px;
+  top: 80px;
+  left: -30px;
+}

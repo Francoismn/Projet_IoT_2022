@@ -1,0 +1,66 @@
+body{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+/**** MESSAGE BIENVENUE ********/
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.message{
+    font-size: 25px;
+    margin: 0;
+}
+
+.userMessage{
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+/**** FIN MESSAGE *******/
+/***** MAP ******/
+
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 70px 0;
+}
+
+.map img{
+    width: 95%;
+    z-index: -1;
+}
+
+/******** FIN MAP ***********/
+/******* WEATHER ******/
+
+.weather{
+    position: absolute;
+    top: 175px;
+    right: 10px;
+}
+
+#widget-weather{
+    width: 150px;
+    height: 300px;
+}
+
+/********* FIN WEATHER *****/
+/*******  FOOTER   *********/
+.footer-left img,
+.footer-right img{
+    display: none;
+}
+/**** FIN FOOTER ***/
+
+
