@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/structure.css"> 
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/media_queries/mq_main.css">
+    <link rel="stylesheet" href="/assets/css/media_queries/mq_structure.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css" integrity="sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/img/logo - HomeCloud1.png" type="image/x-icon">
+    <title>My HomeCloud</title>
+</head>
+<body>
+    <header>
+        <div class="header-left" id="collapse">
+            <div class="btn not-active" id="button">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="header-center">
+            <img src="/assets/img/logo - HomeCloud1.png" alt="#">
+            <h1 id="title">My HomeCloud</h1>
+        </div>
+        <div class="header-right">
+            <a href="/main.html"><img src="/assets/img/logo - HomeCloud1.png" alt="#"></a>
+        </div>
+    </header>
+
+    <nav class="nav-left" id="menu">
+        <ul>
+            <li><a href="main.html">Vue générale</a></li>
+            <li><a href="salon.html">Salon</a></li>
+            <li><a href="#">Salle de Bain</a></li>
+            <li><a href="#">Chambre</a></li>
+            <li><a href="#">Terrasse</a></li>
+            <li><a href="login.html">Déconnexion</a></li>
+            <li>
+                <div class="checkbox" onclick="displayMode()">
+                    Mode d'affichage
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>                
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="info-date">
+        <div id="dateHeure"></div>
+        <img id="sun" src="/assets/img/iconmonstr-weather-2.svg" alt="">
+        <img id="moon" src="/assets/img/iconmonstr-weather-114.svg" alt="">
+    </div>
+    <div class="weather">
+        <iframe id="widget-weather" frameborder="0" src="https://meteofrance.com/widget/prevision/452340"> </iframe>
+    </div>
+
+    <div class="message">
+        <div class="hUser">
+            <div id="hUser1">Bonjour,</div>
+            <div id="hUser2">Bonsoir,</div>
+        </div>
+        <div class="userMessage">MIKA !</div>
+    </div>
+
+    <div class="map">
+        <img src="/assets/img/map.png" alt="">
+    </div>
+
+
+    <div class="ombre ombre-top">
+        <footer>
+            <div class="footer-left">
+                <img src="/assets/img/iconmonstr-angel-left-circle-thin.svg" alt="">
+            </div>
+            <div class="footer-center">
+                <div class="fc-left"><img src="/assets/img/envelope-solid.svg" alt=""></div>
+                <div class="fc-right"><img src="/assets/img/question-solid.svg" alt=""></div>
+            </div>
+            <div class="footer-right">
+                <img src="/assets/img/iconmonstr-angel-right-circle-thin.svg" alt="">
+            </div>
+            <div class="credit">
+                ©2022 HomeCloud, tous droits réservés, by Zephar & Moisan
+            </div>
+        </footer>
+    </div>
+   
+
+    <script>
+        //message + logo selon heure
+        var hUser1 = document.getElementById("hUser1") //bonjour
+        var hUser2 = document.getElementById('hUser2') //bonsoir
+        var sun = document.getElementById('sun')
+        var moon = document.getElementById('moon')
+        var heure = new Date().getHours()
+              
+        if (5>=heure>=19) {
+            hUser1.style.display = "block"
+            hUser2.style.display = "none"
+            sun.style.display = "block"
+            moon.style.display = "none"
+        } else{
+            hUser1.style.display = "none"
+            hUser2.style.display = "block"
+            sun.style.display = "none"
+            moon.style.display = "block"
+        }
+
+    </script>
+    <script src="/assets/js/structure.js"></script>
+
+</body>
+</html>
+

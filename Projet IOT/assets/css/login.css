@@ -1,0 +1,114 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.logo img{
+    height: 20%;
+    width: 20%;
+}
+
+.login-title{
+    color: #efefef;
+    text-align: center;
+}
+
+.login-title h1{
+    margin: 5% 0 0 0;
+    font-weight: bold;
+}
+
+.login-title p{
+    -webkit-text-stroke: .75px;
+    -webkit-text-stroke-color: #242026;
+}
+
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #242026;
+    box-shadow: 0 15px 25px #00ADEF;
+    border-radius: 10px;
+}
+
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box input{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label{
+    top: -85px;
+    left: 0;
+    color: #00ADEF;
+    font-size: 12px;
+}
+
+#submit{
+    padding: 10px 20px;
+    color: #CBBDDB;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #00ADEF;
+    margin: auto;
+}
+
+#submit:hover{
+    background: #00ADEF;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 
+    0 0 5px #00ADEF, 
+    0 0 25px #00ADEF,
+    0 0 50px #00ADEF,
+    0 0 100px #00ADEF;
+}
+
+.button-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
